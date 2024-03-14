@@ -41,19 +41,19 @@
     <img id="img1" src="static/b.svg" style="height:200px;" />
 
     <input type="text"/>
-    <button> id="btn1" class="btn btn-primary">Change</button>
+    <button id="btn1" class="btn btn-primary">Change</button>
 
     <script>
     
         "use strict";
-        let btn = document.querySelector("#btn1")
+        let btn = document.querySelector("#btn1");
 
-        function btnClicked()
+        function btnClicked ()
         {
-            alert("button click!")
+            alert("button click!");
         }
 
-        btn.addventListener("click", btnClicked);
+        btn.addEventListener("click", btnClicked);
 
     </script>
 
